@@ -21,5 +21,6 @@ class Relatos(db.Model):
     #Método constructor para mapear datos a los campos definidos
     
     def __init__(self, titulo, relato):
+
         self.titulo=titulo
         self.relato=relato
