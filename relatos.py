@@ -16,7 +16,7 @@ class Relatos(db.Model):
     #Se le pone el tipo de datos que es entre paréntesis, no son tipo de Python si no que están definidos en SQLAlchemy
     titulo=db.Column(db.String(100))
     relato=db.Column(db.String(1700))
-   
+
     
     #Método constructor para mapear datos a los campos definidos
     
